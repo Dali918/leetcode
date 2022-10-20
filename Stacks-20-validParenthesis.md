@@ -1,3 +1,4 @@
+# [Valid Parenthesis - 20 - Easy](https://leetcode.com/problems/valid-parentheses/)
 ```python
 def isValid(s):
         """
