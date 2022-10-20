@@ -1,4 +1,4 @@
-### [isPalindrome - 234](https://leetcode.com/problems/palindrome-linked-list/)
+### [isPalindrome - 234 - Easy](https://leetcode.com/problems/palindrome-linked-list/)
 
 ```python
 ## Paste your code in here
