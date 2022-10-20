@@ -1,4 +1,4 @@
-﻿# [Rotate List - 61](https://leetcode.com/problems/rotate-list/)
+﻿# [Rotate List - 61 - Medium](https://leetcode.com/problems/rotate-list/)
 ```python
   def rotateRight(self, head, k):
         """
