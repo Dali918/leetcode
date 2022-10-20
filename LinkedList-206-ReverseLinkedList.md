@@ -1,4 +1,4 @@
-﻿# [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+﻿# [Reverse Linked List - 20 - Easy](https://leetcode.com/problems/reverse-linked-list/)
 
 ```python
     def reverseList(head):
