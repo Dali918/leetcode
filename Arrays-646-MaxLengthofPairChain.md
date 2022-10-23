@@ -24,4 +24,4 @@
 - When done looping through the sorted array, we return the length of **longest chain array**  
 ### Runtime Analysis 
 - $O(nlogn)$ or $O(n^2)$for runtime complexity since the sort adds some overhead complexity but python's sorting algorithm is $O(nlogn)$. We also iterate over the entire list a second time to make it $O(n)$ but $O(nlogn)$ is bigger
-- $O(n)$ for space complexity since we create a new array containing the longest maximum chain pair. This means that at worst you  can have the entire original array be a valid chain pair array  
+- $O(n)$ for space complexity since we create a new array containing the longest maximum chain pair. This means that at worst you can have the entire original array be a valid longest chain 
