@@ -1,4 +1,4 @@
-# [Top K Frequent Elemnts - Medium](https://leetcode.com/problems/top-k-frequent-elements/)
+# [Top K Frequent Elements - Medium](https://leetcode.com/problems/top-k-frequent-elements/)
 
 ```python
 class Solution(object):
