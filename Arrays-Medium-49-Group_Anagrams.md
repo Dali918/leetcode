@@ -1,4 +1,4 @@
-# [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+# [Group Anagrams - Medium](https://leetcode.com/problems/group-anagrams/)
 
 ```python
 class Solution(object):
@@ -55,4 +55,4 @@ class Solution(object):
 ### Optimized Solution 
 - 
 
-# Runtime Analysis
+# Runtime Analysis  
