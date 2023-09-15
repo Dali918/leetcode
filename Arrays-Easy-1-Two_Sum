@@ -1,4 +1,4 @@
-# [Two Sum](https://leetcode.com/problems/two-sum/)
+# [Two Sum - Easy](https://leetcode.com/problems/two-sum/)
 
 ```python
 class Solution(object):
