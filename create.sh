@@ -7,7 +7,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 # Get the output filename from the command line argument
-output_filename="$1"
+output_filename="$1".md
 
 # Check if the output file already exists
 if [ -e "$output_filename" ]; then
