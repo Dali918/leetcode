@@ -4,12 +4,8 @@
 
 ```
 
-# Solution Explanation 
+### Solution Explanation 
 
-### Brute Force 
-- 
-
-### Optimized Solution 
-- 
-
-# Runtime Analysis  
+#### Runtime Analysis  
+- *Time:*
+- *Space:*
