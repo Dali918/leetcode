@@ -32,5 +32,5 @@ def characterReplacement(self, s: str, k: int) -> int:
 - Note that you have to update the maximum character frequency for every addition of a charcter in the hashtable or for each new current window 
 
 #### Runtime Analysis  
-- *Time:* $O(26 * n)$ because of max char freq update -> $O(n)$
+- *Time:* $O(26n)$ because of max char freq update -> $O(n)$
 - *Space:* $(n)$ because of the hashtable 
