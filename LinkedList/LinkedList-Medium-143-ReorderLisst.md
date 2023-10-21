@@ -50,6 +50,30 @@ def get_length(head):
 
 ### Neetcode Solution
 ```python
+#find middle
+        slow, fast = head, head.next 
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+        #split the list into two halves
+        second = slow.next 
+        slow.next = None
+        prev = None
+        #reverse the second half
+        while second:
+            n = second.next
+            second.next = prev
+            prev = second
+            second = n 
+        #set the heads of the two lists
+        first, second = head, prev
+        #merged the two lists 
+        while second:
+            tmp1, tmp2 = first.next, second.next
+            first.next = second
+            second.next = tmp1
+            first, second = tmp1, tmp2
 ```
 
 ### Solution Explanation 
