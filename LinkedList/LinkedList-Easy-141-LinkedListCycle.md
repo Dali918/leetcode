@@ -25,4 +25,4 @@ def hasCycle(self, head: Optional[ListNode]) -> bool:
 
 #### Runtime Analysis  
 - *Time:* $O(n)$
-- *Space:* $O(1)$
+- *Space:* $O(1)$ 
