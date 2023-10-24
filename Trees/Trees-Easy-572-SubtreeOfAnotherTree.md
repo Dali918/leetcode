@@ -27,7 +27,7 @@ def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bo
 
 ### Solution Explanation 
 - utilize the same tree helper function to determine if the current node is the root of a tree that is the same as the comparison node 
-- if that is not true, check if the left tree is the same as the comparsion tree or if the left tree is the same as the comparison tree 
+- if that is not true, check if the left subtree is the same as the comparsion tree or if the right subtree is the same as the comparison tree 
 #### Runtime Analysis  
 - *Time:* $O(m * n ) \rightarrow $ where m is the number of nodes in the main tree and n is the number of nodes in the comparison tree. This is because for each node in the main tree, we compare if it is the root of a subtree identicalto the comparison tree. For the comparison tree, we compare againt every node in it 
 - *Space:* $O(max(m,n) ) \rightarrow $  since at some point we push the entirety of m or n onto the stack. if the trees are identical $2n \rightarrow n$ then its whatever tree has the most nodes
