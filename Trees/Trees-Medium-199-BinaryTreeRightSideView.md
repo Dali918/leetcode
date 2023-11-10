@@ -29,5 +29,5 @@ def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
 - Use level len to capture the length of a level and know when to know you are at a new level 
 
 #### Runtime Analysis  
-- *Time:* $O() -> $
-- *Space:* $O() -> $ 
+- *Time:* $O(n) -> $ BFS traversal touches all the nodes 
+- *Space:* $O(n) ->$ duplicate of data if tree is unbalanced e.g all right children makign it a linked list 
