@@ -22,7 +22,7 @@ else
   exit 1
 fi
 
-output_filename="Trees-$difficulty-$number-$title".md
+output_filename="Graphs-$difficulty-$number-$title".md
 
 # Check if the output file already exists
 if [ -e "$output_filename" ]; then
