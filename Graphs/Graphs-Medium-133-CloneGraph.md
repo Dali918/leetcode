@@ -46,3 +46,6 @@ def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
 #### Runtime Analysis  
 - *Time:* $O(V + E) -> $ we visit all the nodes and edges of the graph 
 - *Space:* $O(V + E) -> $ for the adjacency list, $O(V)$ for the hashmap, and  $O(V + E)$ for the BFS queue 
+
+### Extra Note 
+- I also learned that in python, variables and almost everything is a pointer to an object. For example if you declare a variable x, set it to a node object then add that node object to the value of a key or another object's data field then x points to the same object that is in the data field. in effect, changing x would change the object regardless of where it is. 
