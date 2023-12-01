@@ -38,6 +38,6 @@ class Solution:
 - return the size of the maximum island 
 
 #### Runtime Analysis  
-- $m =  $ row size and $n = $ column size
+- $ m =  $ row size and $n = $ column size
 - *Time:* $O(m * n + A) -> $ the graph is m x n and we visit each cell but we also do a traversal at each cell using dfs. If most of the graph is an island, then we would peform O(A) for dfs, with A being the size of all nodes. 
 - *Space:* $O(m * n ) -> $ the dfs needs extra memory using a stack and at worst, whole graph is an island, we would have the whole graph on the stack 
