@@ -36,7 +36,6 @@ def solve(self, board: List[List[str]]) -> None:
         for i in range(r):
             for j in range(c):
                board[i][j] = "O" if board[i][j] == "T" else "X"
-
 ```
 
 ### Solution Explanation 
