@@ -63,3 +63,6 @@ def orangesRotting(self, grid: List[List[int]]) -> int:
 #### Runtime Analysis  
 - *Time:* $O(n x m) -> $ we traverse the whole graph using BFS and again for checking for fresh oranges
 - *Space:* $O(n x m ) -> $ The queue at most could contain all the nodes in the graph if the whole graph is rotten 
+
+### Notes
+- Pay attention to the direction vector, had trouble initially because of this 
