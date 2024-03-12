@@ -2,21 +2,21 @@
 
 ```python
 def check_palindrome(s,l,r,count):
-            while l<r:
-                if s[l] != s[r]:
-                    return (
-                        count < 1 
-                        and 
-                        (check_palindrome(s,l,r-1, count + 1)
-                        or 
-                        check_palindrome(s,l+1,r, count + 1))
-                    )
-                else:
-                    l+=1
-                    r-=1
-            return True
-        l,r, count = 0, len(s)-1, 0
-        return check_palindrome(s,l,r,count)
+    while l<r:
+        if s[l] != s[r]:
+            return (
+                count < 1 
+                and 
+                (check_palindrome(s,l,r-1, count + 1)
+                or 
+                check_palindrome(s,l+1,r, count + 1))
+            )
+        else:
+            l+=1
+            r-=1
+    return True
+l,r, count = 0, len(s)-1, 0
+return check_palindrome(s,l,r,count)
 ```
 
 ### Solution Explanation 
