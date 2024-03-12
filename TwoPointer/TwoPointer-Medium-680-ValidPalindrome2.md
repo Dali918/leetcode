@@ -24,5 +24,5 @@ def check_palindrome(s,l,r,count):
 - while loop to loop through using left and right pointer checking each other to see if characters in a string are equal. Return true at the end when left pointer > right pointer 
 - if two characters are not equal, recurse with count incremented and return the recursive result and the count limit has not been exceeded. This returns false otherwise
 #### Runtime Analysis  
-- *Time:* $O(n) ->$ we traverse though the whole string
-- *Space:* $O(1) ->$ for space if youre not considering stack space for the function calls
+- *Time:* $O(n) \rightarrow$ we traverse though the whole string
+- *Space:* $O(1) \rightarrow$ for space if youre not considering stack space for the function calls

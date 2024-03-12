@@ -7,5 +7,5 @@
 ### Solution Explanation 
 
 #### Runtime Analysis  
-- *Time:* $O() -> $
-- *Space:* $O() -> $ 
+- *Time:* $O() \rightarrow$
+- *Space:* $O() -> \rightarrow$ 
