@@ -20,7 +20,8 @@
 - [ ]
 - [ ]
 - [ ]
-**June 25 2024** -->
+ -->
+**June 25 2024**
 - [x] [swap nodes in pair - Medium](https://leetcode.com/problems/swap-nodes-in-pairs/description/) 
 - [x] [linked list cycle - Easy](https://leetcode.com/problems/linked-list-cycle/description/)
 - [x] [Delete Node in Linked List - Medium](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
