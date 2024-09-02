@@ -1,33 +1,29 @@
 # [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 
 ```python
-"""
-My initial solution
-"""
 def isBalanced(self, root: Optional[TreeNode]) -> bool:
+    """
+    for each node, check if abs(left subtree length - right subtree length) < 1
+    """
+    if root is None:
+        return True 
+    left = self.helper(root.left)
+    right = self.helper(root.right)
 
-        def get_depth(root):
-            if root is None:
-                return 0
-            return max(get_depth(root.left), get_depth(root.right)) + 1 
-        
-        if root is None:
-            return True 
-        
-        left_depth = get_depth(root.left) if root.left else 0
-        right_depth = get_depth(root.right) if root.right else 0
+    return abs(left - right) <=  1 and self.isBalanced(root.right) and self.isBalanced(root.left)
 
-        if abs(left_depth-right_depth) > 1:
-            return False 
-        else:
-            return self.isBalanced(root.left) and self.isBalanced(root.right)
+def helper(self, root: Optional[TreeNode]):
+    if root is None:
+        return 0 
+    return max(self.helper(root.left) + 1, self.helper(root.right) + 1)
 
 ```
 
 ### Solution Explanation 
-- Perform a DFS at every node and see if it is balanced
-- The `get_depth` method helps us perform a DFS  at every node inorder to determine the depth and then compare the two 
+- Get the depth of each subtree for every node 
+- This solution has repetion and is slow because for every node, we have to recompute the depth of its subtree even if it was already computed before. 
+- the `helper` function helps us with computing the depth of every subtree
 
 #### Runtime Analysis  
-- *Time:* $O(nlogn) -> $ The DFS at every node slows us down 
-- *Space:* $O(1) -> $ No extra memory is allocated for the algorithm 
+- *Time:* $O(n) -> $ We compute the depth of eaach node's subtree everytimne all over again 
+- *Space:* $O(n) -> $ Extra memory is allocated for the algorithm becaues it is recursive
