@@ -22,6 +22,7 @@
 - [x] [Symmetric tree](https://leetcode.com/problems/symmetric-tree/description/)
 - [x] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 - [x] [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/)
+- [x] [Implement a Queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) | [solution](https://guides.codepath.org/compsci/Implement-Queue-Using-Stacks)
 **June 25 2024**
 - [x] [swap nodes in pair - Medium](https://leetcode.com/problems/swap-nodes-in-pairs/description/) 
 - [x] [linked list cycle - Easy](https://leetcode.com/problems/linked-list-cycle/description/)
