@@ -16,11 +16,12 @@
 - [ ]
 - [ ]
 - [ ]
-**June 26 2024**
-- [ ]
-- [ ]
-- [ ]
- -->
+-->
+**Sept 2 2024**
+- [x] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Video : Problem walkthrough](https://courses.codepath.org/course_videos/tip103/youtu/2zLM6K1RItQ?title=Video+%3A+Problem+walkthrough "Video : Problem walkthrough")
+- [x] [Symmetric tree](https://leetcode.com/problems/symmetric-tree/description/)
+- [x] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+ 
 **June 25 2024**
 - [x] [swap nodes in pair - Medium](https://leetcode.com/problems/swap-nodes-in-pairs/description/) 
 - [x] [linked list cycle - Easy](https://leetcode.com/problems/linked-list-cycle/description/)
