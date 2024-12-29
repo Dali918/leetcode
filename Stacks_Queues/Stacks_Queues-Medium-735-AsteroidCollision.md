@@ -28,7 +28,7 @@ def asteroidCollision(self, asteroids):
     - if abs(top_of_stack) > abs(incoming_neg) $\rightarrow$ destroy the incoming asteroid and go to the next asteroid
     -  if abs(top_of_stack) < abs(incoming_neg) $\rightarrow$ destroy the top and keep destroying tops until condition one is satisfied all the stack is empty 
     - if abs(top_of_stack) = abs(incoming_neg) $\rightarrow$ destroy both the top asteroids and incoming, move on to the next negative incomign asteroid
-- if the stack is empty or you don't have an incoming negative asteroid hence no collision just append the new asteroid. 
+- if the stack is empty or you don't have an incoming negative asteroid hence no collision just append the new asteroid. U
 - return the stack when finished 
 
 #### Runtime Analysis  
